@@ -1,4 +1,10 @@
-with open('D:/language acquisition/upload_scripts/upload_git/train_GPT/text/all_sentences.txt') as f:
+"""Utility module to load Brocanto2 grammar constructions."""
+
+from pathlib import Path
+
+CORPUS_PATH = Path(__file__).parent / "text" / "all_sentences.txt"
+
+with open(CORPUS_PATH, "r", encoding="utf-8") as f:
     full_corpus = f.read().splitlines()
 
 NP = full_corpus[:12]

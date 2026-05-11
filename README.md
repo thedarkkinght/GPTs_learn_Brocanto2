@@ -2,7 +2,7 @@
 
 Core analysis code for the manuscript:
 
-**Predictive and feedback signals differently shape the formation of language representations**
+**Predictive and feedback signals differently shape the formation of group-level and individualized language representations **
 
 This repository contains the lightweight code, stimulus files, model-derived representations, and statistical maps used for the main analyses. The full behavioral and neuroimaging dataset includes 102 participants and is approximately 2 TB, so it is not included in this GitHub repository.
 

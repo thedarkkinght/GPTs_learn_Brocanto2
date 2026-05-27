@@ -82,4 +82,8 @@ Run the notebooks in numerical order:
 
 The first three notebooks train the computational models. The RSA and individualized modeling notebooks depend on preprocessed behavioral/neural data and derived model representations.
 
+Typical installation time is approximately 10–30 minutes on a standard desktop computer, depending on internet speed and package availability.
+
+The lightweight demo using the included derived files should run within minutes to approximately one hour. Full model training and individualized modelling may take several hours and are faster with GPU acceleration.
+
 Expected outputs include trained model checkpoints, tokenized corpora, model representation arrays, RSA result files and example statistical maps corresponding to the main RSA analyses.

@@ -82,3 +82,4 @@ Run the notebooks in numerical order:
 
 The first three notebooks train the computational models. The RSA and individualized modeling notebooks depend on preprocessed behavioral/neural data and derived model representations.
 
+Expected outputs include trained model checkpoints, tokenized corpora, model representation arrays, RSA result files and example statistical maps corresponding to the main RSA analyses.

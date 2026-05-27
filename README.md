@@ -87,3 +87,9 @@ Typical installation time is approximately 10–30 minutes on a standard desktop
 The lightweight demo using the included derived files should run within minutes to approximately one hour. Full model training and individualized modelling may take several hours and are faster with GPU acceleration.
 
 Expected outputs include trained model checkpoints, tokenized corpora, model representation arrays, RSA result files and example statistical maps corresponding to the main RSA analyses.
+
+The code was tested on Ubuntu/Linux with Python 3.10. Package versions are listed in requirements.txt.
+
+GPU acceleration is recommended for full model training. The original analyses were run using CUDA-compatible NVIDIA GPUs. The lightweight demo and inspection of precomputed arrays can be run on CPU.
+
+The included stimulus files, text corpora, precomputed model representations and TFCE maps serve as lightweight demo/derived data for testing the workflow.
